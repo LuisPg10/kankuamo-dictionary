@@ -8,4 +8,4 @@ y hacer uso de tecnologías modernas para un avance social.
 ## Ejecutar la aplicación
 
 1. `npm install`
-2. `npm start`# kankuamo_dictionary
+2. `npm start`

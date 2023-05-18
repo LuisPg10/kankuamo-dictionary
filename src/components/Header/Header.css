@@ -1,0 +1,41 @@
+.btn-outline-success-search {
+  color: white;
+  border-color: white;
+  background-color: transparent;
+}
+
+.btn-outline-success-search:hover {
+  color: black;
+  border-color: transparent;
+  background-color: white;
+}
+
+.Header-Container {
+  background: #00682d;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.Header {
+  align-items: center;
+  justify-content: center;
+}
+
+.Form-Navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 110px;
+  padding-top: 20px;
+}
+
+.Logo {
+  margin: 0;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: 25px;
+  top: 5px;
+}

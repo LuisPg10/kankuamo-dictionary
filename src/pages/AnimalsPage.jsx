@@ -1,8 +1,7 @@
-import Card from '../Card/Card';
-import './View.css';
-import animal from '../../images/user.png';
+import { Card } from '../components/Card';
+import animal from '../assets/images/user.png';
 
-export default function Color() {
+export const AnimalsPage = () => {
   let cards = [];
   const spanishInfo = [
     'Grillo',
@@ -95,6 +94,7 @@ export default function Color() {
   for (let i = 0; i < 27; i++) {
     cards.push(
       <Card
+        key={spanishInfo[i]}
         data={animal}
         spanish={spanishInfo[i]}
         kankuamo={kankuamoInfo[i]}
@@ -105,10 +105,8 @@ export default function Color() {
 
   return (
     <>
-      {/* Titulo de la vista  */}
-      <h1 className="mt-auto">ANIMALES</h1>
       {/*Cartas de colores*/}
       <div className="row row-cols-2 row-cols-md-4 g-0">{cards}</div>
     </>
   );
-}
+};

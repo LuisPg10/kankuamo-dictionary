@@ -1,6 +1,6 @@
-import "./Card.css";
+import './Card.css';
 
-export default function Card({ data, spanish, english, kankuamo }) {
+export const Card = ({ data, spanish, english, kankuamo }) => {
   return (
     <div className="card">
       {/* Imagen de Administrador */}
@@ -24,4 +24,4 @@ export default function Card({ data, spanish, english, kankuamo }) {
       </div>
     </div>
   );
-}
+};

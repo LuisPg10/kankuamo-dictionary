@@ -1,8 +1,8 @@
-import logo from '../../images/logo.png';
-import NavBar from './NavBar';
+import logo from '../../assets/images/logo.png';
+import { NavBar } from '../NavBar';
 import './Header.css';
 
-export default function Header() {
+export const Header = () => {
   return (
     <div className="Header-Container">
       <div className="Form-Navbar">
@@ -27,11 +27,12 @@ export default function Header() {
             Buscar
           </button>
         </form>
+
         {/* NavBar */}
         <nav className="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
+          <div className="container-fluid">
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -39,7 +40,7 @@ export default function Header() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
             <NavBar />
           </div>
@@ -47,4 +48,4 @@ export default function Header() {
       </div>
     </div>
   );
-}
+};

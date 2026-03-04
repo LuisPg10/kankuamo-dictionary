@@ -1,13 +1,6 @@
-import Color from './components/Body/Color';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import { RouterProvider } from 'react-router/dom';
+import { appRouter } from './router/app-router';
 
 export default function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Color />
-      <Footer />
-    </div>
-  );
+  return <RouterProvider router={appRouter} />;
 }

@@ -1,8 +1,7 @@
-import './View.css';
-import Card from '../Card/Card';
-import number from '../../images/user.png';
+import { Card } from '../components/Card';
+import number from '../assets/images/user.png';
 
-export default function Number() {
+export const NumbersPage = () => {
   let cards = [];
   let spanishInfo = [
     'Uno',
@@ -44,6 +43,7 @@ export default function Number() {
   for (let i = 0; i < 10; i++) {
     cards.push(
       <Card
+        key={spanishInfo[i]}
         data={number}
         spanish={spanishInfo[i]}
         kankuamo={kankuamaInfo[i]}
@@ -53,10 +53,8 @@ export default function Number() {
   }
   return (
     <>
-      {/*Titulo del vista*/}
-      <h1 className="mt-auto">NÚMEROS</h1>
       {/*Cartas de numeros*/}
       <div className="row row-cols-2 row-cols-md-4 g-0">{cards}</div>
     </>
   );
-}
+};

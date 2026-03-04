@@ -1,10 +1,11 @@
 import './Card.css';
 
-export const Card = ({ data, spanish, english, kankuamo }) => {
+export const Card = ({ word }) => {
+  const { image, spanish, kankuamo, english } = word;
   return (
     <div className="card">
       {/* Imagen de Administrador */}
-      <img src={data} className="card-img-top" alt={spanish} />
+      <img src={image} className="card-img-top" alt={spanish} />
 
       <div className="card-body">
         {/* Nombre de la caja*/}

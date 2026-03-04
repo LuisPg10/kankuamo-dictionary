@@ -8,7 +8,9 @@ export const AppLayout = () => {
       <Header />
       <main>
         {/* <h1 className="mt-auto"></h1> */}
-        <Outlet />
+        <section className="row row-cols-2 row-cols-md-4 g-0">
+          <Outlet />
+        </section>
       </main>
       <Footer />
     </>

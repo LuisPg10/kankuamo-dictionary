@@ -4,7 +4,7 @@ import './Header.css';
 
 export const Header = () => {
   return (
-    <div className="Header-Container">
+    <header className="Header-Container">
       <div className="Form-Navbar">
         {/* Imagen del Logo */}
         <img
@@ -46,6 +46,6 @@ export const Header = () => {
           </div>
         </nav>
       </div>
-    </div>
+    </header>
   );
 };

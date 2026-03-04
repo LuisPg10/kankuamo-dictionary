@@ -1,5 +1,3 @@
-import "./AdminCard.css";
-
 export default function AdminCard({ User, Name }) {
   return (
     <div className="card">

@@ -1,44 +1,44 @@
-import "./View.css";
-import Card from "../Card/Card";
-import number from "../../Images/User.png";
+import './View.css';
+import Card from '../Card/Card';
+import number from '../../images/user.png';
 
 export default function Number() {
   let cards = [];
   let spanishInfo = [
-    "Uno",
-    "Dos",
-    "Tres",
-    "Cuatro",
-    "Cinco",
-    "Seis",
-    "Siete",
-    "Ocho",
-    "Nueve",
-    "Diez",
+    'Uno',
+    'Dos',
+    'Tres',
+    'Cuatro',
+    'Cinco',
+    'Seis',
+    'Siete',
+    'Ocho',
+    'Nueve',
+    'Diez',
   ];
   let englishInfo = [
-    "One",
-    "Two",
-    "Three",
-    "Four",
-    "Five",
-    "Six",
-    "Seven",
-    "Eight",
-    "Nine",
-    "Ten",
+    'One',
+    'Two',
+    'Three',
+    'Four',
+    'Five',
+    'Six',
+    'Seven',
+    'Eight',
+    'Nine',
+    'Ten',
   ];
   let kankuamaInfo = [
-    "Ijkwa",
-    "Moga",
-    "Mewa",
-    "Makegwa",
-    "Achigwa",
-    "Jingwa",
-    "Küga",
-    "Ambigwa",
-    "Ihkagwa",
-    "Ugwa",
+    'Ijkwa',
+    'Moga',
+    'Mewa',
+    'Makegwa',
+    'Achigwa',
+    'Jingwa',
+    'Küga',
+    'Ambigwa',
+    'Ihkagwa',
+    'Ugwa',
   ];
 
   for (let i = 0; i < 10; i++) {
@@ -48,7 +48,7 @@ export default function Number() {
         spanish={spanishInfo[i]}
         kankuamo={kankuamaInfo[i]}
         english={englishInfo[i]}
-      />
+      />,
     );
   }
   return (

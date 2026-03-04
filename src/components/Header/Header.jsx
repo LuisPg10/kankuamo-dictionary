@@ -1,6 +1,6 @@
-import logo from "../../Images/Logo.png";
-import NavBar from "./NavBar";
-import "./Header.css";
+import logo from '../../images/logo.png';
+import NavBar from './NavBar';
+import './Header.css';
 
 export default function Header() {
   return (

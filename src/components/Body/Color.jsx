@@ -1,26 +1,38 @@
-import Card from "../Card/Card";
-import "./View.css";
-import color from "../../Images/User.png";
+import Card from '../Card/Card';
+import './View.css';
+import color from '../../images/user.png';
 
 export default function Color() {
   let cards = [];
   const spanishInfo = [
-    "Blanco", "Amarillo",
-    "Azul", "Rojo",
-    "Anaranjado", "Morado",
-    "Verde", "Negro"
+    'Blanco',
+    'Amarillo',
+    'Azul',
+    'Rojo',
+    'Anaranjado',
+    'Morado',
+    'Verde',
+    'Negro',
   ];
   const kankuamoInfo = [
-    "Bunchikönke", "Akänl",
-    "Chusuasi", "Amakua",
-    "Yikanka", "Uözi",
-    "Atahkáye", "Niakönke"
+    'Bunchikönke',
+    'Akänl',
+    'Chusuasi',
+    'Amakua',
+    'Yikanka',
+    'Uözi',
+    'Atahkáye',
+    'Niakönke',
   ];
   const englishInfo = [
-    "White", "Yellow",
-    "Blue", "Red",
-    "Orange", "Purple",
-    "Green", "Black"
+    'White',
+    'Yellow',
+    'Blue',
+    'Red',
+    'Orange',
+    'Purple',
+    'Green',
+    'Black',
   ];
 
   for (let i = 0; i < 8; i++) {
@@ -30,7 +42,7 @@ export default function Color() {
         spanish={spanishInfo[i]}
         kankuamo={kankuamoInfo[i]}
         english={englishInfo[i]}
-      />
+      />,
     );
   }
   return (

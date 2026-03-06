@@ -6,7 +6,9 @@ export const NumbersPage = () => {
     //* Numbers cards
     <>
       {numbersData.map((number) => (
-        <Card key={number.spanish} word={number} />
+        <div key={number.spanish} className="col">
+          <Card word={number} />
+        </div>
       ))}
     </>
   );

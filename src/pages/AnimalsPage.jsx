@@ -6,7 +6,9 @@ export const AnimalsPage = () => {
     //* Animals cards
     <>
       {animalsData.map((animal) => (
-        <Card key={animal.spanish} word={animal} />
+        <div key={animal.spanish} className="col">
+          <Card word={animal} />
+        </div>
       ))}
     </>
   );

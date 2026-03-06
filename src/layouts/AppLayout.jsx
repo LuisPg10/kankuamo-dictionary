@@ -9,8 +9,8 @@ export const AppLayout = () => {
       <Header />
       <main>
         {/* <h1 className="mt-auto"></h1> */}
-        <section className="container">
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <section className="container-fluid">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5">
             <Outlet />
           </div>
         </section>

@@ -4,7 +4,7 @@ import './Header.css';
 
 export const Header = () => {
   return (
-    <header>
+    <header className="position-sticky top-0 z-1">
       <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
         <div className="container-fluid">
           <img

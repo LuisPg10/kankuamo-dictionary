@@ -6,7 +6,9 @@ export const ColorsPage = () => {
     //* Colors cards
     <>
       {colorsData.map((color) => (
-        <Card key={color.spanish} word={color} />
+        <div key={color.spanish} className="col">
+          <Card word={color} />
+        </div>
       ))}
     </>
   );

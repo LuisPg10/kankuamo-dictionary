@@ -1,18 +1,21 @@
 import { Outlet } from 'react-router';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import '../shared/css/layouts.css';
 
 export const AppLayout = () => {
   return (
-    <>
+    <div className="main-layout">
       <Header />
       <main>
         {/* <h1 className="mt-auto"></h1> */}
-        <section className="row row-cols-2 row-cols-md-4 g-0">
-          <Outlet />
+        <section className="container">
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <Outlet />
+          </div>
         </section>
       </main>
       <Footer />
-    </>
+    </div>
   );
 };

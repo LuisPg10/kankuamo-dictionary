@@ -1,4 +1,7 @@
-import colorImage from '../assets/images/user.png';
+const colorImage = '/assets/images/user.png';
+const imagePath = '/assets/images/colors';
+const kankuamoSoundPath = '/assets/sounds/colors/kankuamo';
+const englishSoundPath = '/assets/sounds/colors/kankuamo';
 
 export const colorsData = [
   {

@@ -1,4 +1,4 @@
-import numberImage from '../assets/images/user.png';
+const numberImage = '/assets/images/user.png';
 
 export const numbersData = [
   {

@@ -1,4 +1,4 @@
-import animalImage from '../assets/images/user.png';
+const animalImage = '/assets/images/user.png';
 
 export const animalsData = [
   {

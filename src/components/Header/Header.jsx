@@ -1,4 +1,3 @@
-import logo from '../../assets/images/logo.png';
 import { NavBar } from '../NavBar';
 import './Header.css';
 
@@ -9,7 +8,7 @@ export const Header = () => {
         <div className="container-fluid">
           <img
             className="logo"
-            src={logo}
+            src="/assets/images/logo.png"
             alt="kankuamo dictionary"
             width={80}
             height={80}

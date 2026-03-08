@@ -1,10 +1,10 @@
-import './Card.css';
+import './WordCard.css';
 
-export const Card = ({ word }) => {
+export const WordCard = ({ word }) => {
   const { image, spanish, kankuamo, english } = word;
 
   return (
-    <div className="card">
+    <article className="card">
       {/* image */}
       <img src={image} className="card-img-top" alt={spanish} />
 
@@ -24,6 +24,6 @@ export const Card = ({ word }) => {
           </button>
         </div>
       </div>
-    </div>
+    </article>
   );
 };

@@ -1,11 +1,11 @@
-import { Card } from '../components/Card';
+import { WordCard } from '../components/WordCard';
 
 export const WordsPage = ({ words }) => {
   return (
     <>
       {words.map((word) => (
         <div key={word.spanish} className="col">
-          <Card word={word} />
+          <WordCard word={word} />
         </div>
       ))}
     </>

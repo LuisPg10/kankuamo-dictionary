@@ -1,9 +1,9 @@
 import { createBrowserRouter, Navigate } from 'react-router';
 
 //* Data for word page
-import { colorsData } from '../data/colors-data';
-import { animalsData } from '../data/animals-data';
-import { numbersData } from '../data/numbers-data';
+import { colorsData } from '../data/colors.data';
+import { animalsData } from '../data/animals.data';
+import { numbersData } from '../data/numbers.data';
 
 import { WordsLayout } from '../layouts/WordsLayout';
 import { WordsPage } from '../pages/WordsPage';

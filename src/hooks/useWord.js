@@ -1,6 +1,11 @@
 import { useRef } from 'react';
 import { playSound } from '../helpers/play-sound.helper';
 
+/**
+ *
+ * @param {string} kankuamoSound
+ * @param {string} englishSound
+ */
 export const useWord = (kankuamoSound, englishSound) => {
   const kankuamoSoundRef = useRef(null);
   const englishSoundRef = useRef(null);

@@ -2,8 +2,15 @@ import { useWord } from '../../../hooks/useWord';
 import './WordCard.css';
 
 export const WordCard = ({ word }) => {
-  const { image, spanish, kankuamo, english, kankuamoSound } = word;
-  const { kankuamoSoundRef, playKankuamoSound } = useWord(kankuamoSound);
+  const { image, spanish, kankuamo, english } = word;
+  const { kankuamoSound, englishSound } = word;
+
+  const {
+    kankuamoSoundRef,
+    englishSoundRef,
+    playKankuamoSound,
+    playEnglishSound,
+  } = useWord(kankuamoSound, englishSound);
 
   return (
     <article className="card">
@@ -25,13 +32,19 @@ export const WordCard = ({ word }) => {
           >
             {kankuamo}
           </button>
-          <button type="button" className="btn btn-language">
+
+          <button
+            type="button"
+            className="btn btn-language"
+            onClick={playEnglishSound}
+          >
             {english}
           </button>
         </div>
       </div>
 
       <audio ref={kankuamoSoundRef} src={kankuamoSound}></audio>
+      <audio ref={englishSoundRef} src={englishSound}></audio>
     </article>
   );
 };

@@ -144,7 +144,7 @@ export const animalsData = [
     image: animalImage,
     spanish: 'Ñeque',
     kankuamo: 'Manchangala',
-    english: 'Manchangala',
+    english: 'Ñeque',
     kankuamoSound: `${kankuamoSoundPath}/manchangala.webm`,
     englishSound: `${englishSoundPath}/manchangala.webm`,
   },

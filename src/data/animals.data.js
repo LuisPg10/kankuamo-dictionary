@@ -6,7 +6,7 @@ export const animalsData = [
     spanish: 'Grillo',
     kankuamo: 'Bokokono',
     english: 'Cricket',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/bokokono.webm',
     englishSound: '',
   },
   {
@@ -14,7 +14,7 @@ export const animalsData = [
     spanish: 'Avispa',
     kankuamo: 'Bunolina',
     english: 'Wasp',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/bunolina.webm',
     englishSound: '',
   },
   {
@@ -22,7 +22,7 @@ export const animalsData = [
     spanish: 'Cerdo',
     kankuamo: 'Chimu',
     english: 'Pig',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/chimu.webm',
     englishSound: '',
   },
   {
@@ -30,7 +30,7 @@ export const animalsData = [
     spanish: 'Perro',
     kankuamo: 'Chörma',
     english: 'Dog',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/chörma.webm',
     englishSound: '',
   },
   {
@@ -38,7 +38,7 @@ export const animalsData = [
     spanish: 'Sardina',
     kankuamo: 'Dihguaka',
     english: 'Sardine',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/dihguaka.webm',
     englishSound: '',
   },
   {
@@ -46,7 +46,7 @@ export const animalsData = [
     spanish: 'Hormiga',
     kankuamo: 'Dolmnyare',
     english: 'Ant',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/dolmnyare.webm',
     englishSound: '',
   },
   {
@@ -54,7 +54,7 @@ export const animalsData = [
     spanish: 'León',
     kankuamo: 'Dumake',
     english: 'Lion',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/dumake.webm',
     englishSound: '',
   },
   {
@@ -62,7 +62,7 @@ export const animalsData = [
     spanish: 'Murcielago',
     kankuamo: 'Dünga',
     english: 'Bat',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/dünga.webm',
     englishSound: '',
   },
   {
@@ -70,7 +70,7 @@ export const animalsData = [
     spanish: 'Alacrán',
     kankuamo: 'Faki',
     english: 'Scorpion',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/faki.webm',
     englishSound: '',
   },
   {
@@ -78,15 +78,15 @@ export const animalsData = [
     spanish: 'Gallina',
     kankuamo: 'Gamüsuri',
     english: 'Hen',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/gamüsuri.webm',
     englishSound: '',
   },
   {
     image: animalImage,
     spanish: 'Hormiga negra',
     kankuamo: 'Gongo',
-    english: 'Gongo',
-    kankuamoSound: '',
+    english: 'Black Ant',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/gongo.webm',
     englishSound: '',
   },
   {
@@ -94,7 +94,7 @@ export const animalsData = [
     spanish: 'Guartinaja',
     kankuamo: 'Guara',
     english: 'Guartinaja',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/guara.webm',
     englishSound: '',
   },
   {
@@ -102,7 +102,7 @@ export const animalsData = [
     spanish: 'Gallinazo',
     kankuamo: 'Guenazo',
     english: 'Buzzard',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/guenazo.webm',
     englishSound: '',
   },
   {
@@ -110,7 +110,7 @@ export const animalsData = [
     spanish: 'Gusano',
     kankuamo: 'Ji',
     english: 'Worn',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/ji.webm',
     englishSound: '',
   },
   {
@@ -118,7 +118,7 @@ export const animalsData = [
     spanish: 'Comejen',
     kankuamo: 'Kandurano',
     english: 'Termite',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/kandurano.webm',
     englishSound: '',
   },
   {
@@ -126,7 +126,7 @@ export const animalsData = [
     spanish: 'Venado',
     kankuamo: 'Kuhchúar',
     english: 'Deer',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/kuhchúar.webm',
     englishSound: '',
   },
   {
@@ -134,7 +134,7 @@ export const animalsData = [
     spanish: 'Ardilla',
     kankuamo: 'Kuldumaka',
     english: 'Squirrel',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/kuldumaka.webm',
     englishSound: '',
   },
   {
@@ -142,7 +142,7 @@ export const animalsData = [
     spanish: 'Lagartija',
     kankuamo: 'Lobo',
     english: 'Lizard',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/lobo.webm',
     englishSound: '',
   },
   {
@@ -150,7 +150,7 @@ export const animalsData = [
     spanish: 'Ñeque',
     kankuamo: 'Manchangala',
     english: 'Manchangala',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/manchangala.webm',
     englishSound: '',
   },
   {
@@ -158,7 +158,7 @@ export const animalsData = [
     spanish: 'Araña',
     kankuamo: 'Mankua',
     english: 'Spider',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/mankua.webm',
     englishSound: '',
   },
   {
@@ -166,7 +166,7 @@ export const animalsData = [
     spanish: 'Gato',
     kankuamo: 'Misi',
     english: 'Cat',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/misi.webm',
     englishSound: '',
   },
   {
@@ -174,7 +174,7 @@ export const animalsData = [
     spanish: 'Pulga',
     kankuamo: 'Möechcjl',
     english: 'Flea',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/möechcjl.webm',
     englishSound: '',
   },
   {
@@ -182,15 +182,7 @@ export const animalsData = [
     spanish: 'Zorra',
     kankuamo: 'Sarma',
     english: 'Fox',
-    kankuamoSound: '',
-    englishSound: '',
-  },
-  {
-    image: animalImage,
-    spanish: '???',
-    kankuamo: '???',
-    english: '???',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/sarma.webm',
     englishSound: '',
   },
   {
@@ -198,7 +190,7 @@ export const animalsData = [
     spanish: 'Luciernaga',
     kankuamo: 'Sinkábe',
     english: 'Firefly',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/sinkábe.webm',
     englishSound: '',
   },
   {
@@ -206,7 +198,7 @@ export const animalsData = [
     spanish: 'Ratón',
     kankuamo: 'Tuhkua',
     english: 'Mouse',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/tuhkua.webm',
     englishSound: '',
   },
   {
@@ -214,7 +206,7 @@ export const animalsData = [
     spanish: 'Mariposa',
     kankuamo: 'Ulsakúbi',
     english: 'Butterfly',
-    kankuamoSound: '',
+    kankuamoSound: '/assets/sounds/animals/kankuamo/ulsakúbi.webm',
     englishSound: '',
   },
 ];

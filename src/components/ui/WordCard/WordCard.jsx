@@ -1,7 +1,9 @@
+import { useWord } from '../../../hooks/useWord';
 import './WordCard.css';
 
 export const WordCard = ({ word }) => {
-  const { image, spanish, kankuamo, english } = word;
+  const { image, spanish, kankuamo, english, kankuamoSound } = word;
+  const { kankuamoSoundRef, playKankuamoSound } = useWord(kankuamoSound);
 
   return (
     <article className="card">
@@ -16,7 +18,11 @@ export const WordCard = ({ word }) => {
 
         {/* buttons */}
         <div className="d-grid gap-2 mt-2">
-          <button type="button" className="btn btn-language">
+          <button
+            type="button"
+            className="btn btn-language"
+            onClick={playKankuamoSound}
+          >
             {kankuamo}
           </button>
           <button type="button" className="btn btn-language">
@@ -24,6 +30,8 @@ export const WordCard = ({ word }) => {
           </button>
         </div>
       </div>
+
+      <audio ref={kankuamoSoundRef} src={kankuamoSound}></audio>
     </article>
   );
 };

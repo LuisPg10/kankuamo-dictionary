@@ -1,11 +1,10 @@
-const colorImage = '/assets/images/user.png';
 const imagePath = '/assets/images/colors';
 const kankuamoSoundPath = '/assets/sounds/colors/kankuamo';
 const englishSoundPath = '/assets/sounds/colors/english';
 
 export const colorsData = [
   {
-    image: colorImage,
+    image: `${imagePath}/blanco.webp`,
     spanish: 'Blanco',
     kankuamo: 'Bunchikönke',
     english: 'White',
@@ -13,7 +12,7 @@ export const colorsData = [
     englishSound: `${englishSoundPath}/white.webm`,
   },
   {
-    image: colorImage,
+    image: `${imagePath}/amarillo.webp`,
     spanish: 'Amarillo',
     kankuamo: 'Akänl',
     english: 'Yellow',
@@ -21,7 +20,7 @@ export const colorsData = [
     englishSound: `${englishSoundPath}/yellow.webm`,
   },
   {
-    image: colorImage,
+    image: `${imagePath}/azul.webp`,
     spanish: 'Azul',
     kankuamo: 'Chusuasi',
     english: 'Blue',
@@ -29,7 +28,7 @@ export const colorsData = [
     englishSound: `${englishSoundPath}/blue.webm`,
   },
   {
-    image: colorImage,
+    image: `${imagePath}/rojo.webp`,
     spanish: 'Rojo',
     kankuamo: 'Amakua',
     english: 'Red',
@@ -37,7 +36,7 @@ export const colorsData = [
     englishSound: `${englishSoundPath}/red.webm`,
   },
   {
-    image: colorImage,
+    image: `${imagePath}/anaranjado.webp`,
     spanish: 'Anaranjado',
     kankuamo: 'Yikanka',
     english: 'Orange',
@@ -45,7 +44,7 @@ export const colorsData = [
     englishSound: `${englishSoundPath}/orange.webm`,
   },
   {
-    image: colorImage,
+    image: `${imagePath}/morado.webp`,
     spanish: 'Morado',
     kankuamo: 'Uözi',
     english: 'Purple',
@@ -53,15 +52,7 @@ export const colorsData = [
     englishSound: `${englishSoundPath}/purple.webm`,
   },
   {
-    image: colorImage,
-    spanish: 'Verde',
-    kankuamo: 'Atahkáye',
-    english: 'Green',
-    kankuamoSound: `${kankuamoSoundPath}/atahkáye.webm`,
-    englishSound: `${englishSoundPath}/green.webm`,
-  },
-  {
-    image: colorImage,
+    image: `${imagePath}/negro.webp`,
     spanish: 'Negro',
     kankuamo: 'Niakönke',
     english: 'Black',

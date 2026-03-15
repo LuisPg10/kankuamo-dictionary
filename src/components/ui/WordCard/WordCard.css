@@ -3,10 +3,11 @@
 }
 
 .card-img-top {
+  background-color: #e8e0d0;
   border-bottom: 1px solid;
   height: 200px;
   object-fit: contain;
-  padding: 10px;
+  padding: 5px;
   width: 100%;
 }
 

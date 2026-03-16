@@ -1,11 +1,10 @@
-const numberImage = '/assets/images/user.png';
 const imagePath = '/assets/images/numbers';
 const kankuamoSoundPath = '/assets/sounds/numbers/kankuamo';
 const englishSoundPath = '/assets/sounds/numbers/english';
 
 export const numbersData = [
   {
-    image: numberImage,
+    image: `${imagePath}/uno.webp`,
     spanish: 'Uno',
     kankuamo: 'Ijkwa',
     english: 'One',
@@ -13,7 +12,7 @@ export const numbersData = [
     englishSound: `${englishSoundPath}/one.webm`,
   },
   {
-    image: numberImage,
+    image: `${imagePath}/dos.webp`,
     spanish: 'Dos',
     kankuamo: 'Moga',
     english: 'Two',
@@ -21,7 +20,7 @@ export const numbersData = [
     englishSound: `${englishSoundPath}/two.webm`,
   },
   {
-    image: numberImage,
+    image: `${imagePath}/tres.webp`,
     spanish: 'Tres',
     kankuamo: 'Mewa',
     english: 'Three',
@@ -29,7 +28,7 @@ export const numbersData = [
     englishSound: `${englishSoundPath}/three.webm`,
   },
   {
-    image: numberImage,
+    image: `${imagePath}/cuatro.webp`,
     spanish: 'Cuatro',
     kankuamo: 'Makegwa',
     english: 'Four',
@@ -37,7 +36,7 @@ export const numbersData = [
     englishSound: `${englishSoundPath}/four.webm`,
   },
   {
-    image: numberImage,
+    image: `${imagePath}/cinco.webp`,
     spanish: 'Cinco',
     kankuamo: 'Achigwa',
     english: 'Five',
@@ -45,7 +44,7 @@ export const numbersData = [
     englishSound: `${englishSoundPath}/five.webm`,
   },
   {
-    image: numberImage,
+    image: `${imagePath}/seis.webp`,
     spanish: 'Seis',
     kankuamo: 'Jingwa',
     english: 'Six',
@@ -53,7 +52,7 @@ export const numbersData = [
     englishSound: `${englishSoundPath}/six.webm`,
   },
   {
-    image: numberImage,
+    image: `${imagePath}/siete.webp`,
     spanish: 'Siete',
     kankuamo: 'Küga',
     english: 'Seven',
@@ -61,7 +60,7 @@ export const numbersData = [
     englishSound: `${englishSoundPath}/seven.webm`,
   },
   {
-    image: numberImage,
+    image: `${imagePath}/ocho.webp`,
     spanish: 'Ocho',
     kankuamo: 'Ambigwa',
     english: 'Eight',
@@ -69,7 +68,7 @@ export const numbersData = [
     englishSound: `${englishSoundPath}/eight.webm`,
   },
   {
-    image: numberImage,
+    image: `${imagePath}/nueve.webp`,
     spanish: 'Nueve',
     kankuamo: 'Ihkagwa',
     english: 'Nine',
@@ -77,7 +76,7 @@ export const numbersData = [
     englishSound: `${englishSoundPath}/nine.webm`,
   },
   {
-    image: numberImage,
+    image: `${imagePath}/diez.webp`,
     spanish: 'Diez',
     kankuamo: 'Ugwa',
     english: 'Ten',

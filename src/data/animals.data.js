@@ -108,8 +108,8 @@ export const animalsData = [
     englishSound: `${englishSoundPath}/worm.webm`,
   },
   {
-    image: `${imagePath}/comejen.webp`,
-    spanish: 'Comejen',
+    image: `${imagePath}/comején.webp`,
+    spanish: 'Comején',
     kankuamo: 'Kandurano',
     english: 'Termite',
     kankuamoSound: `${kankuamoSoundPath}/kandurano.webm`,

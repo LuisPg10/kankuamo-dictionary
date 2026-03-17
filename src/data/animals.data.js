@@ -84,14 +84,6 @@ export const animalsData = [
     englishSound: `${englishSoundPath}/black-ant.webm`,
   },
   {
-    image: `${imagePath}/guartinaja.webp`,
-    spanish: 'Guartinaja',
-    kankuamo: 'Guara',
-    english: 'Guartinaja',
-    kankuamoSound: `${kankuamoSoundPath}/guara.webm`,
-    englishSound: `${englishSoundPath}/guartinaja.webm`,
-  },
-  {
     image: `${imagePath}/gallinazo.webp`,
     spanish: 'Gallinazo',
     kankuamo: 'Guenazo',
@@ -138,14 +130,6 @@ export const animalsData = [
     english: 'Lizard Small',
     kankuamoSound: `${kankuamoSoundPath}/lobo.webm`,
     englishSound: `${englishSoundPath}/lizard-small.webm`,
-  },
-  {
-    image: `${imagePath}/ñeque.webp`,
-    spanish: 'Ñeque',
-    kankuamo: 'Manchangala',
-    english: 'Manchangala',
-    kankuamoSound: `${kankuamoSoundPath}/manchangala.webm`,
-    englishSound: `${englishSoundPath}/manchangala.webm`,
   },
   {
     image: `${imagePath}/araña.webp`,

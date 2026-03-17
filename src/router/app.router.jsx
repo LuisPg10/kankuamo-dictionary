@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from 'react-router';
+import { createHashRouter, Navigate } from 'react-router';
 
 //* Data for word page
 import { colorsData } from '../data/colors.data';
@@ -9,7 +9,7 @@ import { bodyPartsData } from '../data/body-parts.data';
 import { WordsLayout } from '../layouts/WordsLayout';
 import { WordsPage } from '../pages/WordsPage';
 
-export const appRouter = createBrowserRouter([
+export const appRouter = createHashRouter([
   {
     element: <WordsLayout />,
     children: [

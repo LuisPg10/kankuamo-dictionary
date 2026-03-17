@@ -45,7 +45,11 @@ export const Header = () => {
 
           <div className="collapse navbar-collapse" id="navbarNav">
             <NavBar />
-            <form className="d-flex" role="search" onSubmit={handleSubmit}>
+            <form
+              className="d-flex mt-2 mt-lg-0"
+              role="search"
+              onSubmit={handleSubmit}
+            >
               <input
                 ref={inputRef}
                 className="form-control me-2"

@@ -4,6 +4,7 @@ import { createBrowserRouter, Navigate } from 'react-router';
 import { colorsData } from '../data/colors.data';
 import { animalsData } from '../data/animals.data';
 import { numbersData } from '../data/numbers.data';
+import { bodyPartsData } from '../data/body-parts.data';
 
 import { WordsLayout } from '../layouts/WordsLayout';
 import { WordsPage } from '../pages/WordsPage';
@@ -16,6 +17,7 @@ export const appRouter = createBrowserRouter([
       { path: 'colors', element: <WordsPage words={colorsData} /> },
       { path: 'animals', element: <WordsPage words={animalsData} /> },
       { path: 'numbers', element: <WordsPage words={numbersData} /> },
+      { path: 'body-parts', element: <WordsPage words={bodyPartsData} /> },
 
       { path: '/*', element: <Navigate to="/colors" /> },
     ],

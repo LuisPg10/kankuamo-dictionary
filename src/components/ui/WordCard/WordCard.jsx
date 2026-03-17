@@ -5,12 +5,10 @@ export const WordCard = ({ word }) => {
   const { image, spanish, kankuamo, english } = word;
   const { kankuamoSound, englishSound } = word;
 
-  const {
-    kankuamoSoundRef,
-    englishSoundRef,
-    playKankuamoSound,
-    playEnglishSound,
-  } = useWord(kankuamoSound, englishSound);
+  const { playKankuamoSound, playEnglishSound } = useWord(
+    kankuamoSound,
+    englishSound,
+  );
 
   return (
     <article className="card">
@@ -42,9 +40,6 @@ export const WordCard = ({ word }) => {
           </button>
         </div>
       </div>
-
-      <audio ref={kankuamoSoundRef} src={kankuamoSound}></audio>
-      <audio ref={englishSoundRef} src={englishSound}></audio>
     </article>
   );
 };

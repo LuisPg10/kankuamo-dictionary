@@ -1,5 +1,5 @@
-import { useRef } from 'react';
-import { playSound } from '../helpers/play-sound.helper';
+import { useContext } from 'react';
+import { AudioContext } from '../context/AudioContext';
 
 /**
  *
@@ -7,28 +7,12 @@ import { playSound } from '../helpers/play-sound.helper';
  * @param {string} englishSound
  */
 export const useWord = (kankuamoSound, englishSound) => {
-  const kankuamoSoundRef = useRef(null);
-  const englishSoundRef = useRef(null);
+  const { playSound } = useContext(AudioContext);
 
-  const playKankuamoSound = async () => {
-    if (!kankuamoSound) return;
-
-    const sound = kankuamoSoundRef.current;
-    playSound(sound);
-  };
-
-  const playEnglishSound = async () => {
-    if (!englishSound) return;
-
-    const sound = englishSoundRef.current;
-    playSound(sound);
-  };
+  const playKankuamoSound = () => playSound(kankuamoSound);
+  const playEnglishSound = () => playSound(englishSound);
 
   return {
-    //* Props
-    englishSoundRef,
-    kankuamoSoundRef,
-
     //* Methods
     playEnglishSound,
     playKankuamoSound,

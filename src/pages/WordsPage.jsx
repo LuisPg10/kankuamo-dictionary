@@ -11,7 +11,7 @@ export const WordsPage = ({ words = [] }) => {
   return currentWords.length === 0 ? (
     <div className="d-flex flex-column align-items-center gap-2 text-center text-wrap fw-semibold position-absolute top-50 start-50 translate-middle">
       <SadIcon />
-      No hay palabras que coincidan con la busqueda
+      No hay palabras que coincidan con la búsqueda
     </div>
   ) : (
     <>

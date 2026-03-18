@@ -1,0 +1,19 @@
+$body-bg:           #fffde7;
+$primary:           #2d6a2d;
+$card-bg:           #f5f0e8;
+$card-border-radius: 12px;
+$border-radius:      8px;
+
+@import "~bootstrap/scss/bootstrap";
+
+.btn-kankuamo {
+  background-color: #c8703a;
+  color: white;
+  border: none;
+  width: 100%;
+
+  &:hover {
+    background-color: #a85c2e;
+    color: white;
+  }
+}

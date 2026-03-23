@@ -1,11 +1,11 @@
-# Diccionario kankuamo
+# Kankuamo dictionary
 
-![Logo](./src/Images/Logo.png "supreme fashion image")
+![Logo](./public/assets/images/logo.png 'logo of kankuamo dictionary')
 
-Diicionario para el desarrollo del aprendizaje de la lengua kankuama con el fin de ser preservada
-y hacer uso de tecnologías modernas para un avance social.
+Dictionary for the development of learning the kankuamo language in order to be preserved
+and make use of modern technologies for social advancement.
 
-## Ejecutar la aplicación
+## Run the project in development (with npm)
 
 1. `npm install`
 2. `npm start`
